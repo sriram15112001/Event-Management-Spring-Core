@@ -1,0 +1,5 @@
+deepak:
+  username: "deepak"
+  password: "sriram"
+  url: "jdbc:postgresql://localhost:5445/event_management"
+  driver: "org.postgresql.Driver"
