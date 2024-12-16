@@ -1,0 +1,7 @@
+
+
+deepak:
+  username: ${USERNAME}
+  password: ${PASSWORD}
+  url: ${JDBC_URL}
+  driver: ${JDBC_DRIVER}
