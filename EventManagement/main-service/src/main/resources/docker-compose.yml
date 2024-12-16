@@ -1,0 +1,14 @@
+services:
+  prod_postgres:
+    image: postgres
+    ports:
+      - 5411:5432
+    environment:
+      POSTGRES_USER: prod
+      POSTGRES_PASSWORD: prod
+      POSTGRES_DB: prod
+    volumes:
+      - prod_volume:/var/lib/postgres/data
+
+volumes:
+  prod_volume:
